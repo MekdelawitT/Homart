@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title> list your property | HoMart</title>
+    </head>
+    <body>
+        <header>
+            <h1>oMart</h1>
+            <img src="logo.png" alt="HoMart Logo">
+            <h2>Find a place. Find your home.</h2>
+            <img src="houseimage.jpg" alt="House Image">
+        
+        
+        
+        <nav>
+            <a href="login.html">Login</a>
+            <div>
+                <a href="#">Buy a Property</a>
+                <div>
+                    <p> By type </p>
+                    <ul>
+
+                    <li><a href="apartmentsb.html"> Apartments </a></li>
+                    <li><a href="condosb.html"> Condominium </a></li>
+                    <li><a href="studiosb.html"> Studios </a></li>
+                    <li><a href="villasb.html"> Villas </a></li>
+                    <li><a href="multi-storyhomesb.html"> Multi-Story Homes </a></li>
+                    </ul>
+                </div>
+                <div>
+                    <p> By Price</p>
+                    <ul>
+                        <li><a href="lowpriceb.html"> Under 2M ETB </a></li>
+                        <li><a href="mediumpriceb.html"> 2M to 10M ETB </a></li>
+                        <li><a href="highpriceb.html"> 10M to 20M ETB </a></li>
+                        <li><a href="veryhighpriceb.html"> 20M to 50M ETB </a></li>
+                        <li><a href="luxurypriceb.html"> 50M+ ETB </a></li>
+                    </ul>
+
+       </div>
+
+
+            </div>
+            <div>
+                <a href="#">Rent a Property</a>
+                <div>
+                    <p> By type </p>
+                    <ul>
+                    <li><a href="singleroomr.html"> Single Room </a></li>
+                    <li><a href="apartmentsr.html"> Apartments </a></li>
+                    <li><a href="condosr.html"> Condominium </a></li>
+                    <li><a href="studiosr.html"> Studios </a></li>
+                    <li><a href="villasr.html"> Villas </a></li>
+                    <li><a href="multi-storyhomesr.html"> Multi-Story Homes </a></li>
+                    </ul>
+                </div>
+                <div>
+                    <p> By Price</p>
+                    <ul>
+                        <li><a href="lowpricer.html"> 5K to 10K </a></li>
+                        <li><a href="mediumpricer.html"> 10K to 20K </a></li>
+                        <li><a href="highpricer.html"> 20K to 50K </a></li>
+                        <li><a href="luxurypricer.html"> 50K-100k </a></li>
+                        <li><a href="veryhighpricer.html"> 100K+ </a></li>
+                    </ul>
+                </div>
+            </div>
+            <div>
+                <a href="listproperty.html">List your property</a>
+            </div>
+            <a href="about.html">About Us</a>
+            
+
+        </nav>
+        <div>
+            <p> <input type="text" placeholder="What kind of place are you looking for?"> </p>
+        </div>
+        </header>
+        <main>
+            <div>
+                <p> What would you like to do with your property?</p>
+                <label> <input type="radio" name="propertyaction"> Sell My Property </label>
+                <label> <input type="radio" name="propertyaction"> Rent My Property </label>
+            </div>
+            <p>Describe Your property</p>
+            <div>
+                
+                <p> Property type</p>
+                <label> <input type="radio" name="Propertytype"> Studio </label>
+                <label> <input type="radio" name="Propertytype"> Apartment </label>
+                <label> <input type="radio" name="Propertytype"> Condominium </label>
+                <label> <input type="radio" name="Propertytype"> Villa </label>
+                <label> <input type="radio" name="Propertytype"> Multi-story home </label>
+                <div id="multi"><label> <input type="radio"> G+1 </label>
+                <label> <input type="radio" name ="floor"> G+2</label>
+                <label> <input type="radio" name ="floor"> G+3 </label>
+                <label> <input type="radio" name ="floor"> G+4+ </label></div>
+            </div>
+            <div>
+                <p>Property details</p>
+                <p>property title</p>
+                <input type="text" placeholder="e.g. Furnished 3-Bedroom Apartment">
+                <p>Detailed description</p>
+                <input type="text" placeholder="detailed description of the property">
+                <p>Number of Bedrooms</p>
+                <input type="number">
+                <p>Number of Bathrooms</p>
+                <input type="number">
+                <p>Furnishing Status (Furnished, Semi-furnished, Unfurnished)</p>
+                <input type="text">
+                
+            </div>
+            <div>
+                <P>Location</P>
+                <p>City</p>
+                <input type="text">
+                <p>Subcity</p>
+                <input type="text">
+                <p>Woreda</p>
+                <input type ="text">
+                <p>Nearby landmark</p>
+                <input type="text">
+            </div>
+            <div>
+                <p>Price</p>
+                <div id="sellingform">
+                    <p>Selling Price in ETB</p>
+                    <input type="number">
+                    <p> Is the price Negotiable</p>
+                    <label> <input type="checkbox"> Yes </label>
+                    <label> <input type="checkbox"> No </label>    
+                </div>
+                <div id="renting form">
+                    <p>Renting price in ETB</p>
+                    <input type="number"> <p>Per</p> <input type="text">
+                    <p> Is the price Negotiable</p>
+                    <label> <input type="checkbox"> Yes </label>
+                    <label> <input type="checkbox"> No </label> 
+                </div>
+            </div>
+            <div>
+                <p>Features & Amenities</p>
+                <label><input type="checkbox"> Parking </label>
+                <label><input type="checkbox"> Balcony </label>
+                <label><input type="checkbox"> Security </label>
+                <label><input type="checkbox"> Elevator </label>
+                <label><input type="checkbox"> Garden </label>
+            </div>
+            <div>
+                <p>Upload Property Images</p>
+                <input type="file" multiple>
+            </div>
+            <div>
+                <p>Contact Information</p>
+                <p>Full Name</p>
+                <input type="text">
+                <p>Email Address</p>
+                <input type="email">
+                <p>Phone Number</p>
+                <input type="tel">
+            </div>
+            <div>
+                <p>Final Confirmation</p>
+                <label><input type="checkbox"> I confirm that I have the right to list this property and that all information provided is accurate. I agree to HoMart's Terms and Conditions.</label>
+                <input type="button" value="Submit Property Listing">  
+            </div>
+            
+        </main>
+        <footer>
+            <p>Contact us: info@homarteth.com</p>
+            <p>&copy; 2026 HoMart. All rights reserved.</p>
+        </footer>
+    </body>
+</html>

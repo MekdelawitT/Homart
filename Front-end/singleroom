@@ -80,22 +80,24 @@
         <main>
             <div>
                 <img src="singleroom1.jpg" alt="Single Room 1">
-                <p> ETB 17,000 </p>
+                <p> ETB 17,000 per month</p>
+                <p>For Rent</p>
                 <p> Modern Single Room</p>
                 <p>Addis Ababa, Ayertena</p>
-                <button id="view-detailsr1">View Details</button>
+                <button>View Details</button>
             </div>
             <div>
                 <img src="singleroom2.jpg" alt="Single Room 2">
-                <p> ETB 12,000 </p>
+                <p> ETB 9,000 per month</p>
+                <p>For Rent</p>
                 <p> Comfortable Single Room</p>
                 <p>Addis Ababa, Guder</p>
-                <button id="view-detailsr2">View Details</button>
+                <button>View Details</button>
             </div>
             <div id ="view-detailsr1">
                 <img src="singleroom1.jpg" alt="Single Room 1">
                 <p> Modern Single Room</p>
-                <p>Price: ETB 17,000</p>
+                <p>Price: ETB 17,000 per month</p>
                 <p>Location: Addis Ababa, Ayertena</p>
                 <p> floor: Ground floor</p>
                 <p> Availability: Available</p>
@@ -112,7 +114,7 @@
             <div id="view-detailsr2">
                 <img src="singleroom2.jpg" alt="Single Room 2">
                 <p> Comfortable Single Room</p>
-                <p>Price: ETB 12,000</p>
+                <p>Price: ETB 9,000 per month</p>
                 <p>Location: Addis Ababa, Guder</p>
                 <p> floor: Ground floor</p>
                 <p> Availability: Available</p>
@@ -141,7 +143,7 @@
                 tiktok.com/@homarteth
             </p>
         
-            <p>&copy; 2023 HoMart. All rights reserved.</p>
+            <p>&copy; 2026 HoMart. All rights reserved.</p>
         </footer>
     </body>
 </html>
