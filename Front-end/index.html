@@ -3,21 +3,17 @@
     <head>
         <meta charset="UTF-8">
         <title> HoMart - Find a place. Find your home</title>
+        <link rel="stylesheet" href="index.css">
     </head>
     <body>
-        <header>
-            <h1>oMart</h1>
-            <img src="logo.png" alt="HoMart Logo">
-            <h2>Find a place. Find your home.</h2>
-            <img src="houseimage.jpg" alt="House Image">
-        
-        
-        
+        <header>        
         <nav>
-            <a href="login.html">Login</a>
-            <div>
-                <a href="#">Buy a Property</a>
-                <div>
+            <div class="logo"><img src="logo.png" alt="HoMart Logo"> <h1>oMart</h1></div>
+            <div class="rnav">
+            <div class="ddbuy">
+                <a href="#" class="navs"> Buy▾</a>
+                <div class="dbuy">
+                <div class="btype">
                     <p> By type </p>
                     <ul>
 
@@ -28,23 +24,25 @@
                     <li><a href="multi-storyhomesb.html"> Multi-Story Homes </a></li>
                     </ul>
                 </div>
-                <div>
+                <div class="bprice">
                     <p> By Price</p>
                     <ul>
                         <li><a href="lowpriceb.html"> Under 2M ETB </a></li>
                         <li><a href="mediumpriceb.html"> 2M to 10M ETB </a></li>
+                        
                         <li><a href="highpriceb.html"> 10M to 20M ETB </a></li>
                         <li><a href="veryhighpriceb.html"> 20M to 50M ETB </a></li>
                         <li><a href="luxurypriceb.html"> 50M+ ETB </a></li>
                     </ul>
 
-       </div>
+                </div>
+                </div>
+                </div>
 
-
-            </div>
-            <div>
-                <a href="#">Rent a Property</a>
-                <div>
+            <div class="ddrent">
+                <a href="#" class="navs">Rent▾</a>
+                <div class="drent">
+                <div class="rtype">
                     <p> By type </p>
                     <ul>
                     <li><a href="singleroom.html"> Single Room </a></li>
@@ -55,7 +53,7 @@
                     <li><a href="multi-storyhomesr.html"> Multi-Story Homes </a></li>
                     </ul>
                 </div>
-                <div>
+                <div class="rprice">
                     <p> By Price</p>
                     <ul>
                         <li><a href="lowpricer.html"> 5K to 10K </a></li>
@@ -65,84 +63,147 @@
                         <li><a href="veryhighpricer.html"> 100K+ </a></li>
                     </ul>
                 </div>
+                </div>
             </div>
             <div>
-                <a href="listproperty.html">List your property</a>
+                <a href="listproperty.html" class="navs" >Sell </a>
+                
             </div>
-            <a href="about.html">About Us</a>
-            
-
+            <a href="about.html" class="navs">About Us</a>
+            </div>
+            <div class="sign"><button id="but"><a href="login.html">Sign in</a></button>
+            </div>
         </nav>
-        <div>
-            <p> <input type="text" placeholder="What kind of place are you looking for?"> </p>
+        
+        <div class="searchbar">
+            <img src="homeimage.jpg" alt="House Image">
+            <p> <input type="text" placeholder="What kind of place are you looking for?"> <a href="#"><img id="searchicon" src="searchicon.png" ></a></p>
+        <h2>Find a place. <br>Find your home.</h2>
         </div>
         </header>
     <main>
         <section>
-            <div>
+            <div class="slider">
+            <div class="slides">
+            <div class="slide">
+                <div class="img1">
                 <p>Welcome to homart</p>
-                <p>Your trusted Marketplace for houses</p>
+                <p class="text">Your trusted Marketplace for houses</p>
+                </div>
+                <img src="img1.jpg" id="img1">
             </div>
-            <div>
+            <div class="slide">
+                <img src="img2.jpg" id="img2">
+                <div class="img2">
+                
                 <p>More Places. More Possibilities</p>
-                <p>Discover rooms, apartments, condominiums, villas, and more.</p>
+                <p class="text">Discover rooms, apartments, condominiums, villas, and more.</p>
+                </div>
             </div>
-            <div>
+            <div class="slide">
+                <img src="img3.jpg" id="img3">
+                <div class="img3">
+                
                 <p>Your Place. Your Choice. Your Home.</p>
-                <p>Making the search for a place to live simpler.</p>
+                <p class="text">Making the search for a place to live simpler.</p>
+                </div>
             </div>
-            <div>
+            <div class="slide">
+                <img src="img4.jpg" id="img4">
+                <div class="img4">
+                
                 <p>Know Before You Choose.</p>
-                <p>Explore properties with clear prices, locations, photos and detailed information</p>
+                <p class="text">Explore properties with clear prices, locations, photos and detailed information</p>
+                </div>
             </div>
+        </div>
+        </div>
+            <div class="dots">
+                <button class="dota">
+
+                </button>
+                <button class="b">
+                    
+                </button>
+                <button class="c">
+
+                </button>
+                <button class="d">
+
+                </button>
+            </div>
+            <button class="prev">
+                &larr;
+
+            </button>
+            <button class="next">
+                &rarr;
+            </button>
         </section>
-        <div>
+        <div class="tex">
             <p>Find a place you will call home</p>
         </div>
-        <section>
-            <div>
-                <p>Search</p>
-                <p>Find properties that interests you</p>
+        <div class="flexs">
+        <section class="flex2">
+            <div class="elt">
+                <a href="#">
+                <div class="ft">
+                <img id="searchimg" src="realsearch.png">
+                <p class="fh">Search</p>
+                <p>Start your search by browsing through available properties and narrowing down your options based on what you need. Find homes that match your preferred property type, budget, and other requirements.</p>
             </div>
-            <div>
-                <p> Explore</p>
-                <p>View details and photos</p>
+            </a>
             </div>
-            <div>
-                <p> Connect</p>
-                <p>Contact the owner</p>
+            <div class="elt">
+                <a href="#">
+                <div class="ft">
+                <img id="exploreimg" src="searchh.jpg">
+                <p class="fh"> Explore</p>
+                <p>Take a closer look at the properties that interest you. View photos, read the property details, check the price and availability, and learn more about what each home has to offer before making a decision.</p>
+            </div>
+            </a>
+            </div>
+            <div class="elt">
+                <a href="#">
+                <div class="ft">
+                <img id="Connectimg" src="contact.png">
+                <p class="fh"> Connect</p>
+                <p>Found a property you like? Get in touch with the owner directly to ask questions, request more information, or arrange a visit. Connect with owners and take the next step toward finding your home.</p>
+            </div>
+            </a>
             </div>
         </section>
+    </div>
         <section id="sec2">
             <h2>Featured properties</h2>
-            <div><img src="apartment1.jpg" alt="Apartment 1"><p>ETB 7,500,000</p><p>For Sale</p><p>Modern 2 Bedroom Apartment</p><p>Addis Ababa, Bole</p><button>View Details</button></div>
-            <div><img src="apartment4.jpg" alt="Apartment 4"><p>ETB 14,200,000</p><p>For Sale</p><p>Furnished 3 Bedroom Apartment</p><p>Addis Ababa, Sarbet</p><button>View Details</button></div>
-            <div><img src="apartment2.jpg" alt="Apartment 2"><p>ETB 50,000 per month</p><p>For Rent</p><p>Modern 2 Bedroom Apartment</p><p>Addis Ababa, Yeka</p><button>View Details</button></div>
-            <div><img src="apartment3.jpg" alt="Apartment 3"><p>ETB 70,000 per month</p><p>For Rent</p><p>Furnished 3 Bedroom Apartment</p><p>Addis Ababa, AlemGena</p><button>View Details</button></div>
+            <div><img src="to buy images/apartment1.jpg" alt="Apartment 1"><p>ETB 7,500,000</p><p>For Sale</p><p>Modern 2 Bedroom Apartment</p><p>Addis Ababa, Bole</p><button>View Details</button></div>
+            <div><img src="to buy images/apartment 4.jpg" alt="Apartment 4"><p>ETB 14,200,000</p><p>For Sale</p><p>Furnished 3 Bedroom Apartment</p><p>Addis Ababa, Sarbet</p><button>View Details</button></div>
+            <div><img src="To rent images/apartment2.jpg" alt="Apartment 2"><p>ETB 50,000 per month</p><p>For Rent</p><p>Modern 2 Bedroom Apartment</p><p>Addis Ababa, Yeka</p><button>View Details</button></div>
+            <div><img src="To rent images/apartment 3.jpg" alt="Apartment 3"><p>ETB 70,000 per month</p><p>For Rent</p><p>Furnished 3 Bedroom Apartment</p><p>Addis Ababa, AlemGena</p><button>View Details</button></div>
 
-            <div><img src="studio1.jpg" alt="Studio 1"><p>ETB 1,550,000</p><p>For Sale</p><p>Modern studio</p><p>Addis Ababa, 4 Kilo</p><button>View Details</button></div>
-            <div><img src="studio2.jpg" alt="Studio 2"><p>ETB 1,060,000</p><p>For Sale</p><p>Fully Furnished Studio</p><p>Addis Ababa, Kirkos</p><button>View Details</button></div>
-            <div><img src="studio1.jpg" alt="Studio 1"><p>ETB 50,000 per month</p><p>For Rent</p><p>Modern studio</p><p>Addis Ababa, Ayat</p><button>View Details</button></div>
-            <div><img src="studio2.jpg" alt="Studio 2"><p>ETB 60,000 per month</p><p>For Rent</p><p>Fully Furnished Studio</p><p>Addis Ababa, Kirkos</p><button>View Details</button></div>
+            <div><img src="To rent images/studio1.avif" alt="Studio 1"><p>ETB 1,550,000</p><p>For Sale</p><p>Modern studio</p><p>Addis Ababa, 4 Kilo</p><button>View Details</button></div>
+            <div><img src="To rent images/studio2.avif" alt="Studio 2"><p>ETB 1,060,000</p><p>For Sale</p><p>Fully Furnished Studio</p><p>Addis Ababa, Kirkos</p><button>View Details</button></div>
+            <div><img src="to buy images/studio1.avif" alt="Studio 1"><p>ETB 50,000 per month</p><p>For Rent</p><p>Modern studio</p><p>Addis Ababa, Ayat</p><button>View Details</button></div>
+            <div><img src="To rent images/studio2.avif" alt="Studio 2"><p>ETB 60,000 per month</p><p>For Rent</p><p>Fully Furnished Studio</p><p>Addis Ababa, Kirkos</p><button>View Details</button></div>
 
-            <div><img src="condo3.jpg" alt="Condo 3"><p>ETB 3,800,000</p><p>For Sale</p><p>Modern 2 Bedroom Condo</p><p>Addis Ababa, Ayat</p><button>View Details</button></div>
-            <div><img src="condo4.jpg" alt="Condo 4"><p>ETB 4,200,000</p><p>For Sale</p><p>Furnished 3 Bedroom Condo</p><p>Addis Ababa, Bethel</p><button>View Details</button></div>
-            <div><img src="condo 3.jpg" alt="Condo 3"><p>ETB 20,000 per month</p><p>For Rent</p><p>Modern 1 Bedroom Condo</p><p>Addis Ababa, Jemo</p><button>View Details</button></div>
+            <div><img src="to buy images/condo3.jp" alt="Condo 3"><p>ETB 3,800,000</p><p>For Sale</p><p>Modern 2 Bedroom Condo</p><p>Addis Ababa, Ayat</p><button>View Details</button></div>
+            <div><img src="to buy images/condo4.jp" alt="Condo 4"><p>ETB 4,200,000</p><p>For Sale</p><p>Furnished 3 Bedroom Condo</p><p>Addis Ababa, Bethel</p><button>View Details</button></div>
+            <div><img src="to rent images/condos 3.jpg" alt="Condo 3"><p>ETB 20,000 per month</p><p>For Rent</p><p>Modern 1 Bedroom Condo</p><p>Addis Ababa, Jemo</p><button>View Details</button></div>
 
-            <div><img src="villa1.jpg" alt="Villa 1"><p>ETB 23,800,000</p><p>For Sale</p><p>Modern 2 Bedroom Villa</p><p>Addis Ababa, Akaki</p><button>View Details</button></div>
-            <div><img src="villa4.jpg" alt="Villa 4"><p>ETB 35,000,000</p><p>For Sale</p><p>Luxurious 4 Bedroom Villa</p><p>Addis Ababa, Arada</p><button>View Details</button></div>
-            <div><img src="villa2.jpg" alt="Villa 2"><p>ETB 23,000 per month</p><p>For Rent</p><p>Modern 2 Bedroom Villa</p><p>Addis Ababa, Lafto</p><button>View Details</button></div>
-            <div><img src="villa3.jpg" alt="Villa 3"><p>ETB 35,000 per month</p><p>For Rent</p><p>Luxurious 4 Bedroom Villa</p><p>Addis Ababa, Mexico</p><button>View Details</button></div>
+            <div><img src="to buy images/villa1.jp" alt="Villa 1"><p>ETB 23,800,000</p><p>For Sale</p><p>Modern 2 Bedroom Villa</p><p>Addis Ababa, Akaki</p><button>View Details</button></div>
+            <div><img src="to buy images/villa4.avif" alt="Villa 4"><p>ETB 35,000,000</p><p>For Sale</p><p>Luxurious 4 Bedroom Villa</p><p>Addis Ababa, Arada</p><button>View Details</button></div>
+            <div><img src="To rent images/villa 2.jpg" alt="Villa 2"><p>ETB 23,000 per month</p><p>For Rent</p><p>Modern 2 Bedroom Villa</p><p>Addis Ababa, Lafto</p><button>View Details</button></div>
+            <div><img src="To rent images/villa3.avif" alt="Villa 3"><p>ETB 35,000 per month</p><p>For Rent</p><p>Luxurious 4 Bedroom Villa</p><p>Addis Ababa, Mexico</p><button>View Details</button></div>
 
-            <div><img src="G+1.avif" alt="G+1 1"><p>ETB 53,500,000</p><p>Modern 2 Bedroom Ground plus 1</p><p>Addis Ababa, Bole</p><button>View Details</button></div>
-            <div><img src="G+2,3.jpg" alt="G+2 3"><p>ETB 54,200,000</p><p>Furnished 3 Bedroom Ground plus 2</p><p>Addis Ababa, Megenagna</p><button>View Details</button></div>
-            <div><img src="G+1,3.jpg" alt="G+1 3"><p>ETB 44,200,000</p><p>Furnished 3 Bedroom Ground plus 1</p><p>Addis Ababa, AdisuGebeya</p><button>View Details</button></div>
-            <div><img src="G+1 , 1.jpg" alt="G+1 1"><p>ETB 100,000 per month</p><p>For Rent</p><p>Modern 2 Bedroom Ground plus 1</p><p>Addis Ababa, Akaki</p><button>View Details</button></div>
-            <div><img src="G+2 , 2.avif" alt="G+2 2"><p>ETB 400,000 per month</p><p>For Rent</p><p>Furnished 3 Bedroom Ground plus 2</p><p>Addis Ababa, Megenagna</p><button>View Details</button></div>
-            <div><img src="G+2.avif" alt="G+2"><p>ETB 450,000 per month</p><p>For Rent</p><p>Furnished 3 Bedroom Ground plus 2</p><p>Addis Ababa, AdisuGebeya</p><button>View Details</button></div>
+            <div><img src="to buy images/G+1.avif" alt="G+1 1"><p>ETB 53,500,000</p><p>Modern 2 Bedroom Ground plus 1</p><p>Addis Ababa, Bole</p><button>View Details</button></div>
+            <div><img src="to buy images/G+2,3.jpg" alt="G+2 3"><p>ETB 54,200,000</p><p>Furnished 3 Bedroom Ground plus 2</p><p>Addis Ababa, Megenagna</p><button>View Details</button></div>
+            <div><img src="to buy images/G+1,3.jpg" alt="G+1 3"><p>ETB 44,200,000</p><p>Furnished 3 Bedroom Ground plus 1</p><p>Addis Ababa, AdisuGebeya</p><button>View Details</button></div>
+            <div><img src="To rent images/G+1 , 1.jpg" alt="G+1 1"><p>ETB 100,000 per month</p><p>For Rent</p><p>Modern 2 Bedroom Ground plus 1</p><p>Addis Ababa, Akaki</p><button>View Details</button></div>
+            <div><img src="To rent images/G+2 , 2.avif" alt="G+2 2"><p>ETB 400,000 per month</p><p>For Rent</p><p>Furnished 3 Bedroom Ground plus 2</p><p>Addis Ababa, Megenagna</p><button>View Details</button></div>
+            <div><img src="To rent images/G+2.avif" alt="G+2"><p>ETB 450,000 per month</p><p>For Rent</p><p>Furnished 3 Bedroom Ground plus 2</p><p>Addis Ababa, AdisuGebeya</p><button>View Details</button></div>
 
-            <div><img src="singleroom1.jpg" alt="Single Room 1"><p>ETB 17,000 per month</p><p>For Rent</p><p>Modern Single Room</p><p>Addis Ababa, Ayertena</p><button>View Details</button></div>
-            <div><img src="singleroom2.jpg" alt="Single Room 2"><p>ETB 9,000 per month</p><p>For Rent</p><p>Comfortable Single Room</p><p>Addis Ababa, Guder</p><button>View Details</button></div>
+            <div><img src="To rent images/singleroom1.jpg" alt="Single Room 1"><p>ETB 17,000 per month</p><p>For Rent</p><p>Modern Single Room</p><p>Addis Ababa, Ayertena</p><button>View Details</button></div>
+            <div><img src="To rent images/singleroom2.jpg" alt="Single Room 2"><p>ETB 9,000 per month</p><p>For Rent</p><p>Comfortable Single Room</p><p>Addis Ababa, Guder</p><button>View Details</button></div>
 
             <div id="view-detailsa1"><img src="apartment1.jpg" alt="Modern 2 Bedroom Apartment"><p>Modern 2 Bedroom Apartment</p><p>ETB 7,500,000 | For Sale</p><p>Location: Addis Ababa, Bole</p><p>A spacious and modern 2-bedroom apartment with a comfortable living room, modern kitchen, two bedrooms, two bathrooms, balcony, parking space, and 24/7 security.</p></div>
             <div id="view-detailsa4"><img src="apartment4.jpg" alt="Furnished 3 Bedroom Apartment"><p>Furnished 3 Bedroom Apartment</p><p>ETB 14,200,000 | For Sale</p><p>Location: Addis Ababa, Sarbet</p><p>A spacious and fully furnished 3-bedroom apartment with a comfortable living area, equipped kitchen, three bedrooms, two bathrooms, parking, and 24/7 security.</p></div>
@@ -170,8 +231,8 @@
             <div id="view-detailsG22"><img src="G+2 , 2.avif" alt="Furnished 3 Bedroom Ground plus 2"><p>Furnished 3 Bedroom Ground plus 2</p><p>ETB 400,000 per month | For Rent</p><p>Location: Addis Ababa, Megenagna</p><p>A spacious home with multiple bedrooms, generous living spaces, modern bathrooms, equipped kitchen, private compound, and parking area.</p></div>
             <div id="view-detailsG2"><img src="G+2.avif" alt="Furnished 3 Bedroom Ground plus 2"><p>Furnished 3 Bedroom Ground plus 2</p><p>ETB 450,000 per month | For Rent</p><p>Location: Addis Ababa, AdisuGebeya</p><p>A spacious multi-story property designed for family living, with generous rooms, modern bathrooms, equipped kitchen, private compound, and parking.</p></div>
 
-            <div id="view-detailsr1"><img src="singleroom1.jpg" alt="Modern Single Room"><p>Modern Single Room</p><p>ETB 17,000 per month | For Rent</p><p>Location: Addis Ababa, Ayertena</p><p>A spacious modern single room with a comfortable living area, modern kitchen, private bathroom, and easy access to shops, restaurants, and transport.</p></div>
-            <div id="view-detailsr2"><img src="singleroom2.jpg" alt="Comfortable Single Room"><p>Comfortable Single Room</p><p>ETB 9,000 per month | For Rent</p><p>Location: Addis Ababa, Guder</p><p>A comfortable single room with a living area, modern kitchen, private bathroom, and convenient access to shops, restaurants, and transport.</p></div>
+            <div id="view-detailsr1"><img src="singleroom1.jp" alt="Modern Single Room"><p>Modern Single Room</p><p>ETB 17,000 per month | For Rent</p><p>Location: Addis Ababa, Ayertena</p><p>A spacious modern single room with a comfortable living area, modern kitchen, private bathroom, and easy access to shops, restaurants, and transport.</p></div>
+            <div id="view-detailsr2"><img src="singleroom2.jp" alt="Comfortable Single Room"><p>Comfortable Single Room</p><p>ETB 9,000 per month | For Rent</p><p>Location: Addis Ababa, Guder</p><p>A comfortable single room with a living area, modern kitchen, private bathroom, and convenient access to shops, restaurants, and transport.</p></div>
         </section>
     </main>
         <footer>
