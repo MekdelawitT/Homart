@@ -363,11 +363,12 @@ nav{
 .fh{
     font-size: 24px;
     font-weight:780;
+    color:#3c6E91;
 }
 .fh:hover{
     text-decoration-line: underline;
     text-decoration-thickness: 2px;
-    text-decoration-color: #8B5A2B;
+    
 }
 h2{
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -430,6 +431,9 @@ footer{
 .footertext{
     display:flex;
     gap:5px;
+    font-weight: 400px;
+    color:#4B5563;
+    font-size:16px;
 }
 #email{
     height:20px;
@@ -463,19 +467,45 @@ footer{
 .ffx{
     margin-top:50px;
     flex:1;
-}
-.fname{
-    color:#5C3A1B;
-    font-size:24px;
-    font-weight:700
-}
-.slogan{
-    font-weight:400;
+    color:#4B5563;
     font-size:14px;
+    font-weight:400px;
+}
+#fname{
+    color:#5C3A1B;
+    font-size:26px;
+    font-weight:700;
+    line-height: 6px;
+}
+#slogan{
+    font-weight:400;
+    font-size:17px;
     color:#6B7280;
 }
 .fus .cus{
-    font-weight:600;
+    font-weight:600px;
     color:#3c6E91;
-    font-size:
+    font-size:16px;
+}
+.com{
+    font-weight:600px;
+    font-size:16px;
+    color:#3C6E91
+}
+#cp{
+    font-size: 13px;
+    font-weight: 400;
+    color:#6B7280;
+}
+.supp:hover{
+    text-decoration: underline;
+}
+.footertext:hover{
+    color:#3c77a1;
+}
+.footertext img{
+    opacity:80%
+}
+.footertext:hover img{
+    opacity:120%
 }
