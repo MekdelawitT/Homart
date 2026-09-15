@@ -1,0 +1,25 @@
+
+.property-searchbar p {
+    position: relative;
+    margin: 0;
+    margin-left:20px;
+}
+
+.property-searchbar input {
+    height: 38px;
+    padding: 0 42px 0 14px;
+    border: 1px solid #d4d4d4;
+    border-radius: 20px;
+}
+
+.property-searchbar #searchicon {
+    position: absolute;
+    top: 7px;
+    left:185px;
+    right: 10px;
+    width: 24px;
+    height: 24px;
+}
+main{
+    background-color: #F3EFE8;
+}

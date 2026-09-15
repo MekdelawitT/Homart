@@ -18,6 +18,7 @@ body{
 }
 .logo h1{
     color:#5C3A1B;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
 }
 nav{
     display: flex;
@@ -43,6 +44,7 @@ nav{
     display:flex;
     width:45%;
     justify-content: space-around; 
+    font-family: sans-serif
 }
 .sign a{
     color: white
@@ -132,7 +134,7 @@ nav{
 }
 .searchbar input{
     width:43%;
-    height:11%;
+    height:45px;
     top:65%;
     left:13%;
     border-style:dotted;
@@ -148,7 +150,8 @@ nav{
     left:13%;
     font-size:350%;
     text-shadow: 3px 3px 5px #331f0c;
-
+    font-family:cursive;
+    line-height: 65px;
 }
  
 .searchbar img {
@@ -230,7 +233,7 @@ nav{
     -webkit-text-stroke: 0.4px white;
 }
 .slide .text{
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: sans-serif;
     font-size: 50%;
     margin-top:-50px;
     margin-left:5%;
@@ -365,4 +368,114 @@ nav{
     text-decoration-line: underline;
     text-decoration-thickness: 2px;
     text-decoration-color: #8B5A2B;
+}
+h2{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-left:4%;
+}
+.sec2{
+    padding: 5%;
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap:20px;
+}
+.ge{
+   background-color: white;
+   border-radius: 20px;
+   display:flex;
+   flex-direction: column;
+}
+.gc{
+background-color: #F3EFE8;
+}
+.ge img{
+    width:100%;
+    border-radius: 20px 20px 0 0;
+    height:250px;
+    object-fit: cover;
+
+}
+.gd{
+    padding: 10px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+.gbirr{
+    color:#6a4523;
+    font-size: 20px;
+    font-family:fantasy;
+}
+.gsorr{
+    color:#4a4a4a;
+    font-family:cursive;
+}
+.ge:hover .gbirr{
+    text-decoration-line: underline;
+    text-decoration-thickness: 1.5px;
+}
+.ge:hover .gsorr{
+    text-decoration-line: underline;
+    text-decoration-thickness: 1.3px;
+}
+.searchbar input::placeholder{
+    font-size: larger;
+}
+footer{
+    margin-left:4%;
+    font-family:sans-serif;
+}
+.footflex{
+    display:flex;
+    gap:50px;
+}
+.footertext{
+    display:flex;
+    gap:5px;
+}
+#email{
+    height:20px;
+    width:20px;
+
+}
+#phone{
+    height:20px;
+    width:20px;
+
+}
+#tiktok{
+    height:20px;
+    width:20px;
+
+}
+#insta{
+    height:20px;
+    width:20px;
+
+}
+.footerflex{
+    display:flex;
+    gap:50px;
+}
+.ffx1{
+    flex:3;
+
+}
+
+.ffx{
+    margin-top:50px;
+    flex:1;
+}
+.fname{
+    color:#5C3A1B;
+    font-size:24px;
+    font-weight:700
+}
+.slogan{
+    font-weight:400;
+    font-size:14px;
+    color:#6B7280;
+}
+.fus .cus{
+    font-weight:600;
+    color:#3c6E91;
+    font-size:
 }
