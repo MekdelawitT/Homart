@@ -2,19 +2,15 @@
 <html>
 <head><meta charset="UTF-8"><title>Rent 10K to 20K | HoMart</title></head>
 <body>
-    <header>
-            <h1>oMart</h1>
-            <img src="logo.png" alt="HoMart Logo">
-            <h2>Find a place. Find your home.</h2>
-            <img src="houseimage.jpg" alt="House Image">
-        
-        
-        
+    <header>        
         <nav>
-            <a href="login.html">Login</a>
-            <div>
-                <a href="#">Buy a Property</a>
-                <div>
+            <div class="logo"><img src="logo.png" alt="HoMart Logo"> <h1>oMart</h1></div>
+            <div class="property-searchbar"> <p> <input type="text" placeholder="Type you search..."> <a href="#"><img id="searchicon" src="searchicon.png" ></a></p></div>
+            <div class="rnav">
+            <div class="ddbuy">
+                <a href="#" class="navs"> Buy▾</a>
+                <div class="dbuy">
+                <div class="btype">
                     <p> By type </p>
                     <ul>
 
@@ -25,23 +21,25 @@
                     <li><a href="multi-storyhomesb.html"> Multi-Story Homes </a></li>
                     </ul>
                 </div>
-                <div>
+                <div class="bprice">
                     <p> By Price</p>
                     <ul>
                         <li><a href="lowpriceb.html"> Under 2M ETB </a></li>
                         <li><a href="mediumpriceb.html"> 2M to 10M ETB </a></li>
+                        
                         <li><a href="highpriceb.html"> 10M to 20M ETB </a></li>
                         <li><a href="veryhighpriceb.html"> 20M to 50M ETB </a></li>
                         <li><a href="luxurypriceb.html"> 50M+ ETB </a></li>
                     </ul>
 
-       </div>
+                </div>
+                </div>
+                </div>
 
-
-            </div>
-            <div>
-                <a href="#">Rent a Property</a>
-                <div>
+            <div class="ddrent">
+                <a href="#" class="navs">Rent▾</a>
+                <div class="drent">
+                <div class="rtype">
                     <p> By type </p>
                     <ul>
                     <li><a href="singleroom.html"> Single Room </a></li>
@@ -52,7 +50,7 @@
                     <li><a href="multi-storyhomesr.html"> Multi-Story Homes </a></li>
                     </ul>
                 </div>
-                <div>
+                <div class="rprice">
                     <p> By Price</p>
                     <ul>
                         <li><a href="lowpricer.html"> 5K to 10K </a></li>
@@ -62,15 +60,16 @@
                         <li><a href="veryhighpricer.html"> 100K+ </a></li>
                     </ul>
                 </div>
+                </div>
             </div>
             <div>
-                <a href="listproperty.html">List your property</a>
+                <a href="listproperty.html" class="navs" >Sell </a>
+                
             </div>
-            <a href="about.html">About Us</a>
-            
-
+            <a href="about.html" class="navs">About Us</a>
+            </div>
+            <div class="sign"><button id="but"><a href="login.html">Sign in</a></button>
+            </div>
         </nav>
-        <div>
-            <p> <input type="text" placeholder="What kind of place are you looking for?"> </p>
-        </div>
+        
         </header><main><div><img src="singleroom1.jpg" alt="Single Room 1"><p>ETB 17,000 per month</p><p>For Rent</p><p>Modern Single Room</p><button>View Details</button></div><div><img src="condo 3.jpg" alt="Condo 3"><p>ETB 20,000 per month</p><p>For Rent</p><p>Modern 1 Bedroom Condo</p><button>View Details</button></div><div id="view-details-r1"><img src="singleroom1.jpg" alt="Single Room 1"><p>Modern Single Room</p><p>Price: ETB 17,000 per month</p><p>Location: Addis Ababa, Ayertena</p><p>floor: Ground floor</p><p>Availability: Available</p><p>A spacious and modern single room located in Ayertena, Addis Ababa. The room features a comfortable living area, modern kitchen, and a private bathroom. It is located in a convenient area with easy access to shops, restaurants, transportation, and other essential services.</p><button id="contact-r1">Contact owner</button></div><div id="view-details-cr3"><img src="condo 3.jpg" alt="Condo 3"><p>Modern 1 Bedroom Condo</p><p>Price: ETB 20,000 per month</p><p>Location: Addis Ababa, Jemo</p><p>floor: 1st floor</p><p>Availability: Available</p><p>A spacious and modern 1-bedroom condo located in Jemo, Addis Ababa. The condo features a comfortable living room, modern kitchen, one bedroom, and one bathroom. It is located in a convenient area with easy access to shops, restaurants, transportation, and other essential services.</p><button id="contact-cr3">Contact owner</button></div></main><footer><p>Contact us: info@homarteth.com</p><p>&copy; 2026 HoMart. All rights reserved.</p></footer></body></html>

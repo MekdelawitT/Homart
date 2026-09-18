@@ -3,34 +3,34 @@
     <head>
         <meta charset="UTF-8">
         <title> login | HoMart </title>
+        <link rel="stylesheet" href="index.css">
+        <link rel="stylesheet" href="propertydetails.css">
+        <link rel="stylesheet" href="login.css">
     </head>
     <body>
-        <header>
-            <h1>HoMart</h1>
-            
-        </header>
         <main>
-            <p>Login to your account</p>
-            <p>please enter your username and password</p>
+            <div class="loginflex">
+                
+            <div class="imgll">
+                <div class="logo"><img src="logo.png" alt="HoMart Logo"> <h1>oMart</h1></div>
+                <p id="formsi">Sign in
+                </p>
         <form>
-            <p> <label for = "username"> Username</label><input type="text" placeholder="Username" id="username"></p>
-            <p><label for="password"> Password</label><input type="password" placeholder="Password" id="password"></p>
+            <p class="inpu"> <p> Email Address</p> <p><input type="text" id="username"></p>
+            <p class="inpu" id="inputpass"><p> Password</p><p><input type="password" id="password"></p>
             <p> <button>
                 login
             </button>
             </p>
-            <p> Don't have an account? <button><a href="signup.html">Sign up</a></button></p>
+            <p> Don't have an account? <a href="signup.html">Create account</a></p>
         </form>
-        <footer>
-            <p>Contact us: info@homarteth.com    
-                +251 911 234 56
-                instagram.com/homarteth
-                tiktok.com/@homarteth
-
-            </p>
-            <p>&copy; 2023 HoMart. All rights reserved.</p>
-            
-        </footer>
+        <p id = "termsofuse">By submitting, I accept HoMart's <a href="#" id = "ofuse">terms of use</a></p>
+        </div>
+        <div class="imgl"> 
+            <img src="signpage.jpg">
+        
+        </div>
+        </div>
         </main>
     </body>
 </html>

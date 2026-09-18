@@ -93,7 +93,7 @@ nav{
 
 .ddrent:hover .drent{
     display: flex;
-    width:770%;
+    width:700%;
     background-color:rgb(255,255,255);
     border-radius:10px; 
     top:180%;
@@ -102,7 +102,6 @@ nav{
     font-size: large;  
     z-index:2;
     
-
 }
 .drent ul {
     list-style: none;
@@ -508,4 +507,11 @@ footer{
 }
 .footertext:hover img{
     opacity:120%
+}
+.listt:hover{
+    text-decoration: underline;
+    color:#331f0c
+}
+.listt:hover a{
+    color:#392008
 }
