@@ -1,23 +1,22 @@
+
 <!DOCTYPE html>
 <html>
     <head>
         <meta charset="UTF-8">
         <title> Single Rooms to Buy | HoMart</title>
+        <link rel="stylesheet" href="index.css">
+        <link rel="stylesheet" href="propertydetails.css">
     </head>
     <body>
-        <header>
-            <h1>oMart</h1>
-            <img src="logo.png" alt="HoMart Logo">
-            <h2>Find a place. Find your home.</h2>
-            <img src="houseimage.jpg" alt="House Image">
-        
-        
-        
+       <header>        
         <nav>
-            <a href="login.html">Login</a>
-            <div>
-                <a href="#">Buy a Property</a>
-                <div>
+            <div class="logo"><img src="logo.png" alt="HoMart Logo"> <h1>oMart</h1></div>
+            <div class="property-searchbar"> <p> <input type="text" placeholder="Type you search..."> <a href="#"><img id="searchicon" src="searchicon.png" ></a></p></div>
+            <div class="rnav">
+            <div class="ddbuy">
+                <a href="#" class="navs"> Buy▾</a>
+                <div class="dbuy">
+                <div class="btype">
                     <p> By type </p>
                     <ul>
 
@@ -28,26 +27,28 @@
                     <li><a href="multi-storyhomesb.html"> Multi-Story Homes </a></li>
                     </ul>
                 </div>
-                <div>
+                <div class="bprice">
                     <p> By Price</p>
                     <ul>
                         <li><a href="lowpriceb.html"> Under 2M ETB </a></li>
                         <li><a href="mediumpriceb.html"> 2M to 10M ETB </a></li>
+                        
                         <li><a href="highpriceb.html"> 10M to 20M ETB </a></li>
                         <li><a href="veryhighpriceb.html"> 20M to 50M ETB </a></li>
                         <li><a href="luxurypriceb.html"> 50M+ ETB </a></li>
                     </ul>
 
-       </div>
+                </div>
+                </div>
+                </div>
 
-
-            </div>
-            <div>
-                <a href="#">Rent a Property</a>
-                <div>
+            <div class="ddrent">
+                <a href="#" class="navs">Rent▾</a>
+                <div class="drent">
+                <div class="rtype">
                     <p> By type </p>
                     <ul>
-                    <li><a href="singleroomr.html"> Single Room </a></li>
+                    <li><a href="singleroom.html"> Single Room </a></li>
                     <li><a href="apartmentsr.html"> Apartments </a></li>
                     <li><a href="condosr.html"> Condominium </a></li>
                     <li><a href="studiosr.html"> Studios </a></li>
@@ -55,30 +56,35 @@
                     <li><a href="multi-storyhomesr.html"> Multi-Story Homes </a></li>
                     </ul>
                 </div>
-                <div>
+                <div class="rprice">
                     <p> By Price</p>
                     <ul>
-                        <li><a href="lowpricer.html"> Under 5K </a></li>
-                        <li><a href="mediumpricer.html"> 5K to 10K </a></li>
-                        <li><a href="highpricer.html"> 10K to 20K </a></li>
-                        <li><a href="veryhighpricer.html"> 20K to 50K </a></li>
-                        <li><a href="luxurypricer.html"> 50K+ </a></li>
+                        <li><a href="lowpricer.html"> 5K to 10K </a></li>
+                        <li><a href="mediumpricer.html"> 10K to 20K </a></li>
+                        <li><a href="highpricer.html"> 20K to 50K </a></li>
+                        <li><a href="luxurypricer.html"> 50K-100k </a></li>
+                        <li><a href="veryhighpricer.html"> 100K+ </a></li>
                     </ul>
+                </div>
                 </div>
             </div>
             <div>
-                <a href="listproperty.html">List your property</a>
+                <a href="listproperty.html" class="navs" >Sell </a>
+                
             </div>
-            <a href="about.html">About Us</a>
-            
-
+            <a href="about.html" class="navs">About Us</a>
+            </div>
+            <div class="sign"><button id="but"><a href="login.html">Sign in</a></button>
+            </div>
         </nav>
-        <div>
-            <p> <input type="text" placeholder="What kind of place are you looking for?"> </p>
-        </div>
+        
         </header>
         <main>
-            <div>
+            <h4>Single Rooms for Rent in Ethiopia</h4>
+            <section class="sec2"><a href="#"><div class="ge"><img src="To rent images/singleroom1.jpg" alt="Single Room 1"><div class="gd"><p class="gbirr">ETB 17,000 <small>per month</small></p><p class="gsorr">For Rent</p><p>Modern Single Room</p><p>📍 Addis Ababa, Ayertena</p></div></div></a>
+            <a href="#"><div class="ge"><img src="To rent images/singleroom2.jpg" alt="Single Room 2"><div class="gd"><p class="gbirr">ETB 9,000 <small>per month</small></p><p class="gsorr">For Rent</p><p>Comfortable Single Room</p><p>📍 Addis Ababa, Guder</p></div></div></a>
+            </section>
+            <!-- <div>
                 <img src="singleroom1.jpg" alt="Single Room 1">
                 <p> ETB 17,000 per month</p>
                 <p>For Rent</p>
@@ -134,16 +140,39 @@
                     <p>Phone: +251 97 35026</p>
                 </div>
                 <p>Similar properties:</p>
-            </div>
+            </div> -->
         </main>
-        <footer>
-            <p>Contact us: info@homarteth.com    
-                +251 911 234 56
-                instagram.com/homarteth
-                tiktok.com/@homarteth
-            </p>
-        
-            <p>&copy; 2026 HoMart. All rights reserved.</p>
+           <footer>
+            <div class="footflex">
+            <div class="ffx1">
+            <p id="fname">Homart</p>
+            <p id="slogan">Find a place. Find your home</p>
+            <div class="footerflex">
+                <div class="cus"><p>Contact us</p>
+                <a href="info@homarteth.com"><p class="footertext"><img id="email" src="email.jpg">info@homarteth.com</p></a>
+                <p class="footertext"><img id="phone" src="phone.jpg">+251 911 234 56</p>
+                </div> 
+                <div class="fus"><p>Follow us </p>
+                <a href="instagram.com/homarteth"><p class="footertext"><img id="insta" src="insta.jpg">instagram.com/homarteth</p></a>
+                <a href="tiktok.com/@homarteth"><p class="footertext"><img id="tiktok" src="tiktok.jpg">tiktok.com/@homarteth</p></a>
+                </div>
+                </div>
+            </div>
+            <div class="ffx">
+                <p class="com ">Company</p>
+                <p class="supp"><a href="#">About us</p></a>
+                <p class="supp"><a href="#">Our Mission</p></a>
+                <p class="supp"><a href="#">Careers</p></a>
+            </div>
+            <div class="ffx">
+                <p class="com">Support</p>
+                <p class="supp"><a href="#">Contact us</p></a>
+                <p class="supp"><a href="#">Help center</p></a>
+                <p class="supp"><a href="#">FAQs</p></a>
+            </div>
+</div>
+            <p id ="cp">&copy; 2026 HoMart. All rights reserved.</p>
+            
         </footer>
     </body>
 </html>
