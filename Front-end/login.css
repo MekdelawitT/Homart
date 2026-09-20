@@ -40,12 +40,12 @@ form{
 #username{
     border-radius: 5px;
     width: 60%;
-    height:25px;
+    height:30px;
 }
 #password{
     border-radius: 5px;
     width: 50%;
-    height:25px;
+    height:30px;
 }
 p button{
     border-radius: 8px;
@@ -78,5 +78,5 @@ p a:hover{
     margin-left:0;
 }
 #inputpass{
-    margin-top:30px;
+    margin-top:26px;
 }

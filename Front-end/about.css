@@ -1,0 +1,40 @@
+section{
+    font-size:17px;
+    padding-left:4%;
+    padding-top:10px;
+}
+h2{
+    font-size:22px;
+    margin-bottom: -10px;
+    margin-left:0px;
+    font-family:cursive;
+    font-weight:700;
+
+}
+h3{
+    font-size:30px;
+
+}
+.strr{
+    padding-top:10px;
+    margin-left: -4%;
+    height:300px;
+    background-color: aliceblue;
+
+}
+.strr p{
+    margin-left: 4%;
+    
+}
+.g{
+    font-size:24px;
+}
+.go{
+    font-size: 30px;
+    padding-right:40%;
+    font-family:'Times New Roman', Times, serif;
+    font-weight:600;
+}
+.goa{
+    font-size: 20px;
+}
