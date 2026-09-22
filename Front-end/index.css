@@ -130,27 +130,27 @@ nav{
 }
 .searchbar{
     position:relative;
+    width:100%;
 }
 .searchbar input{
-    width:43%;
-    height:45px;
-    top:65%;
-    left:13%;
+    width:50%;
+    min-width: 350px;
+    height:50px;
     border-style:dotted;
     border-color: white;
     border-radius:25px;
-    position:absolute;
-    padding-left:1.7%;
-}
+    background-color: pink;
+    position: relative;
+} 
 .searchbar h2{
     position: absolute;
     color:white;
-    top: 15%;
-    left:13%;
-    font-size:350%;
+    top: 9%;
+    left: 13%;
+    font-size: 4rem;
     text-shadow: 3px 3px 5px #331f0c;
     font-family:cursive;
-    line-height: 65px;
+    line-height: 1.2;
 }
  
 .searchbar img {
@@ -159,14 +159,24 @@ nav{
     opacity:90%;  
 }
 
-#searchicon{
-    width:3%;
-    height:8%;
+ #searchicon{
+    width:35px;
+    height:35px;
     border-radius: 50%;
     position:absolute;
-    left:54%;
-    top:67%;
+    left:45%;
+    top:16%;
     
+    
+} 
+.inpuu{
+    width:85%;
+    left:15%;
+    position: absolute;
+    top:65%;
+    background-color: green;
+
+
 }
 .ddbuy:hover .dbuy{
     display: flex;
@@ -515,3 +525,40 @@ footer{
 .listt:hover a{
     color:#392008
 }
+.menu-toggle{
+    display:none;
+}
+/* Mobile view */
+@media (max-width:700px){
+    .menu-toggle{
+        display: block;
+
+    }
+    .rnav{
+        display:none;
+        justify-content: space-between;
+    }
+    nav{
+        display:block;
+    }
+    .logo{
+        text-align: center;
+        height:60px;
+        margin-top:-20px;
+    }
+    nav{
+        display:flex;
+        align-items: center;
+        justify-content: space-between;
+        height:60px;
+    }
+    .searchbar h2{
+        left:3%;
+        font-size: 3.5rem;
+
+    }
+    #searchicon{
+        left: 77%;
+    }
+}
+    
