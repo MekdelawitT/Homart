@@ -38,3 +38,12 @@ h3{
 .goa{
     font-size: 20px;
 }
+@media (max-width:640px){
+    .strr{
+    padding-top:10px;
+    margin-left: -4%;
+    height:380px;
+
+}
+
+}

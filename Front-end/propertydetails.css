@@ -2,7 +2,7 @@
 .property-searchbar p {
     position: relative;
     margin: 0;
-    margin-left:20px;
+    margin-left:0px;
 }
 
 .property-searchbar input {
@@ -29,4 +29,24 @@ h4{
     margin-bottom:0px;
     padding-left:4%;
     font-size: 24px;
+}
+@media (max-width:900px){
+    h1{
+        display:None
+    }
+    .logo{
+        margin-top:10px;
+    }
+    .property-searchbar p {
+    position: relative;
+    margin: 0;
+    margin-left:-25px;
+}
+.menu-toggle{
+    display:inline-block;
+}
+nav{
+    position:relative
+}
+
 }
